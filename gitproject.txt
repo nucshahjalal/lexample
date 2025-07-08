@@ -1,0 +1,182 @@
+==new repository crate and file upload==
+git init 
+git add .
+git commit -m "file upload"
+===then ai command======
+git branch -m main
+git remote add origin https://github.com/nucshahjalal/example.git
+git push origin main 
+
+
+project kaj start  === git pull origin main
+
+project kaj end  == git push origin jalal
+
+project kaj start == git pull origin develop
+project kaj end == git push origin Shahjalal
+$2y$10$DacPdSN8Wt17HoOM/gjrHugzO5ZkhXQYQ0eN1pVZNTGRnLc5JENLa
+
+$2y$10$LLk.QCtas5q6F2dEjVk4PeE5SZhb4uP07uuRBreFtRSqG7juL1slC
+
+====git hub file download=====
+fistly = git clone (path dite hobe)
+ls
+composer install  (folder ar bitor)
+php artisan key:generate
+php artisan migrate
+git status
+git branch -r
+git branch Shahjalal (branch crate)
+git branch -a
+git checkout ( check out korley file empty hobe)
+git pull origin develop / shahjalal
+
+https://we.tl/t-E06Z3jtG4J
+
+PS C:\xampp\htdocs\Apartment-Management-System> ls
+
+
+Directory: C:\xampp\htdocs\Apartment-Management-System
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/20/2023  12:16 AM                app
+d-----         4/20/2023  12:16 AM                bootstrap
+d-----         4/20/2023  12:16 AM                config
+d-----         4/20/2023  12:16 AM                database
+d-----         4/23/2023   6:00 PM                nbproject
+d-----         4/20/2023  12:16 AM                public
+
+
+Directory: C:\xampp\htdocs\Apartment-Management-System
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/20/2023  12:16 AM                app
+
+PS C:\xampp\htdocs\Apartment-Management-System> composer install
+
+PS C:\xampp\htdocs\Apartment-Management-System> php artisan key:generate
+   INFO  Application key set successfully.
+
+
+PS C:\xampp\htdocs\Apartment-Management-System> php artisan migrate
+
+   INFO  Preparing database.
+  2014_10_12_000000_create_users_table .............................................................................................. 857ms DONE
+  
+PS C:\xampp\htdocs\Apartment-Management-System> git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\xampp\htdocs\Apartment-Management-System> git -v
+git version 2.40.0.windows.1
+PS C:\xampp\htdocs\Apartment-Management-System> git init
+Reinitialized existing Git repository in C:/xampp/htdocs/Apartment-Management-System/.git/
+PS C:\xampp\htdocs\Apartment-Management-System> git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+        nbproject/
+
+PS C:\xampp\htdocs\Apartment-Management-System> git branch -r
+  origin/Alif
+  origin/Mohib
+  origin/develop
+  origin/master
+PS C:\xampp\htdocs\Apartment-Management-System> git branch Shahjalal 
+PS C:\xampp\htdocs\Apartment-Management-System> git checkout
+M       .gitignore
+Your branch is up to date with 'origin/develop'.
+Switched to branch 'Shahjalal'
+M       .gitignore
+PS C:\xampp\htdocs\Apartment-Management-System> git branch -a
+* Shahjalal
+  develop
+  remotes/origin/Alif
+  remotes/origin/HEAD -> origin/develop
+  remotes/origin/Mohib
+  remotes/origin/develop
+  remotes/origin/master
+PS C:\xampp\htdocs\Apartment-Management-System> git pull origin develop
+remote: Enumerating objects: 131, done.
+remote: Counting objects: 100% (131/131), done.
+remote: Compressing objects: 100% (34/34), done.
+Receiving objects: 100% (112/112), 12.53 KiB | 1.04 MiB/s, done. 0
+
+
+=======================second time================
+ 
+
+PS G:\xampp\htdocs\Apartment-Management-System> php artisan migrate
+
+   INFO  Running migrations.
+
+  2023_06_21_165626_create_types_table ....................................................... 686ms DONE     
+
+PS G:\xampp\htdocs\Apartment-Management-System>
+ *  History restored 
+
+        modified:   resources/views/garage/spottype/edit.blade.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS G:\xampp\htdocs\Apartment-Management-System> git add .
+PS G:\xampp\htdocs\Apartment-Management-System> git commit -m "file test"
+[Shahjalal 504d656] file test
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS G:\xampp\htdocs\Apartment-Management-System> git status
+On branch Shahjalal
+nothing to commit, working tree clean
+PS G:\xampp\htdocs\Apartment-Management-System> git push origin develop
+Everything up-to-date
+PS G:\xampp\htdocs\Apartment-Management-System> git push origin Shahjalal
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 654 bytes | 36.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Mohib04/Apartment-Management-System.git
+   7a9d2a2..504d656  Shahjalal -> Shahjalal
+PS G:\xampp\htdocs\Apartment-Management-System> 
+
+=====branch change korar somoy commit kore change korte hobe , main branch thake merge korte hobe,=======
+G:\xampp\htdocs\Apartment-Management-System>git branch
+  Shahjalal
+* develop
+  jalal
+
+G:\xampp\htdocs\Apartment-Management-System>git add .
+
+G:\xampp\htdocs\Apartment-Management-System>git commit -m "file update"
+[develop 8ab5500] file update
+
+G:\xampp\htdocs\Apartment-Management-System>git checkout jalal
+Switched to branch 'jalal'
+
+G:\xampp\htdocs\Apartment-Management-System>git branch
+  Shahjalal
+  develop
+* jalal
+
+G:\xampp\htdocs\Apartment-Management-System>git checkout Shahjalal
+Switched to branch 'Shahjalal'
+
+G:\xampp\htdocs\Apartment-Management-System>git branch
+* Shahjalal
+  develop
+  jalal
+G:\xampp\htdocs\Apartment-Management-System>git merge jalal
+Already up to date.
